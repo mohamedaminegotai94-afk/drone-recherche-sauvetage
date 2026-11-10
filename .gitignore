@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# ROS 2 / colcon
+build/
+install/
+log/
+
+# Données générées, vidéos et enregistrements ROS
+recordings/
+*.bag
+*.db3
+*.mcap
+*.mp4
+*.avi
+*.mov
+
+# Modèles appris ou téléchargés (ne pas versionner les poids volumineux)
+*.pt
+*.pth
+*.onnx
+
+# Données locales
+/data/raw/**
+/data/processed/**
+
+# IDE / système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
